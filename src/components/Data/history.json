@@ -1,0 +1,15 @@
+[
+  
+  {
+    "role": "ASP.Net Intern",
+    "organisation": "SquareSoft Technology",
+    "startDate": "Nov, 2022",
+    "endDate": "Feb, 2023",
+    "experiences": [
+      "Project: Monthly Progress Report (MPR) for Tehsil Office MPR for Tehsil Office was developed for recording the tax collection of Gram panchayat from various resources like agricultural land, non-agricultural land, other tax, etc. And generate report for data. ",
+      "Front-end: Visual Studio 13 with ASP.Net & C#",
+      "Back-end: Microsoft SQL Server 2012."
+    ],
+    "imageSrc": "history/sq.png"
+  }
+]
