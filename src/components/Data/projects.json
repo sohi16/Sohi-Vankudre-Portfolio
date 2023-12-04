@@ -1,26 +1,30 @@
-[
+ [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "title": "Carpool System",
+    "imageSrc": "projects/index.png",
+    "description": "This is a carpool management project and allows managing tasks like adding ride, booking ride, deleting ride, etc.",
+    "skills": ["PHP", "HTML", "CSS", "MySQL"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/sohi16/CarpoolManagement",
+    "carouselImages": ["projects/welcome.png", "projects/postride.png","projects/viewpost.png","projects/book.png"]
+  },
+  
+  {
+    "title": "Personal Portfolio",
+    "imageSrc": "projects/portfolio1.png",
+    "description": "This is a project made to showcase details like skills, experience, projects, education with attractive UI Design.",
+    "skills": ["React", "Figma", "HTML","CSS"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/sohi16/Sohi-Vankudre-Portfolio",
+    "carouselImages": ["projects/portfolio2.png", "projects/portfolio3.png","projects/portfolio4.png","projects/portfolio5.png"]
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "title": "Social Media Website",
+    "imageSrc": "projects/social.png",
+    "description": "This is a MERN stack project where users can create their profile, connect with friends, post activities and chat.",
+    "skills": ["React", "Express", "Node", "MongoDB"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/sohi16/SocialMediaApplication",
+    "carouselImages": ["projects/login-social.png","projects/home-social.png","projects/profile-social.png","projects/chat-social.png"]
   }
 ]

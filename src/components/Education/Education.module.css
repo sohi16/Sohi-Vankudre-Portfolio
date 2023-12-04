@@ -87,6 +87,9 @@
   .head{
     flex-direction: column;
   }
+  .title{
+    font-size: 30px;
+  }
   .content {
     flex-direction: column;
   }
@@ -94,7 +97,10 @@
   .aboutImage {
     display: none;
   }
-
+  .eduIcon{
+    height: 30px;
+    width: 30px;
+}
   .aboutItems {
     margin-top: 29px;
   }
@@ -102,6 +108,15 @@
   .aboutItem {
     padding-left: 0;
     padding-right: 0;
+  }
+  .aboutItem h3 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  
+  .aboutItem p {
+    font-size: 18px;
+    align-content: space-between;
   }
   .aboutItemText
 {

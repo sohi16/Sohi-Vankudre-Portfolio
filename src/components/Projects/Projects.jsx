@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Projects.module.css'
 import projects from '../../components/Data/projects.json'
 import ProjectCard from './ProjectCard'
+import 'react-responsive-carousel'
 
 const Projects = () => {
   return (
