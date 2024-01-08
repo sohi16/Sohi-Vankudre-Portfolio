@@ -9,14 +9,14 @@ Currently, two official plugins are available:
 
 # Instructions to use locally
 
-## install dependencies
+## install dependencies : npm install
 1. Download the github repository or clone it
 2. Open project in VS Code
 3. In terminal give following command:
    npm install
 5. Above command will install dependencies
 
-## run application
+## run application: npm run dev
 1. After installing dependencies open terminal and give:
    npm run dev
 2. In the terminal get link for opening website in browser
