@@ -14,21 +14,36 @@ const Contact = () => {
         setFormData({ ...formData, [name]: value });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        // Handle form submission logic here (e.g., sending data to a backend API)
-        console.log(formData); // For demonstration, log form data to console
-        // You can perform further actions like sending the data to a backend server
-        // Reset the form after submission if needed: setFormData({ name: '', email: '', message: '' });
+        try {
+            const response = await fetch('https://formspree.io/f/xjvnvdzb', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            });
+    
+            if (response.ok) {
+                alert('Form submitted successfully!');
+                
+            } else {
+                alert('Error submitting form!');
+            }
+        } catch (error) {
+            console.error('Error occurred while submitting the form:', error);
+        }
     };
+    
 
     return (
-        <footer id="contact" className={styles.container}>
+        <footer id="contact" className={styles.container}>  
             <div className={styles.text}>
                 <h2>Contact</h2>
                 <p>Reach Out To Me</p>
             
-            <form onSubmit={handleSubmit} className={styles.form}>
+            <form onSubmit={handleSubmit} className={styles.form} action='https://formspree.io/f/xjvnvdzb' method='POST'>
                 <div className={styles.formGroup}>
                 <p>Contact Form </p> <br />
                     <label htmlFor="name">Name:</label>
