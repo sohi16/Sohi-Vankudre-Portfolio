@@ -4,17 +4,17 @@ import { getImageUrl } from '../../utils'
 const Education = () => {
   return (
     <section className={styles.container} id="education">
-        
-      <h2 className={styles.title}>Education Details</h2> 
-     <br />
+
+      <h2 className={styles.title}>Education Details</h2>
+      <br />
       <div className={styles.content}>
-        
+
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("education/degree.png")} alt="Cursor icon" className={styles.eduIcon}/>
+            <img src={getImageUrl("education/degree.png")} alt="Cursor icon" className={styles.eduIcon} />
             <div className={styles.aboutItemText}>
               <h3>Master of Computer Applications </h3>
-              <p>                
+              <p>
                 Institute: Chhtrapati Shahu Institute of Business Education and Research, Kolhapur <br />
                 Passing Year: 2023 <br />
                 Percentage: 75%
@@ -33,7 +33,7 @@ const Education = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("education/degree.png")} alt="UI icon" className={styles.eduIcon}/>
+            <img src={getImageUrl("education/degree.png")} alt="UI icon" className={styles.eduIcon} />
             <div className={styles.aboutItemText}>
               <h3>Higher Secondary Certificate (Commerce)</h3>
               <p>
@@ -44,7 +44,7 @@ const Education = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("education/degree.png")} alt="UI icon" className={styles.eduIcon}/>
+            <img src={getImageUrl("education/degree.png")} alt="UI icon" className={styles.eduIcon} />
             <div className={styles.aboutItemText}>
               <h3>Secondary School Certificate</h3>
               <p>

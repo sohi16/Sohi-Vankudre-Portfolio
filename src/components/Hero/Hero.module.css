@@ -1,6 +1,6 @@
 @import "../../vars.css";
 
-.container{
+.container {
     position: relative;
     display: flex;
     align-items: center;
@@ -10,29 +10,33 @@
     margin-left: 10%;
     margin-right: 10%;
 }
-.content{
+
+.content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     color: var(--color-text);
     z-index: 1;
 }
-.title{
+
+.title {
     font-size: 72px;
     font-weight: 900;
     margin-bottom: 33px;
     font-family: var(--font-roboto);
-    background: linear-gradient(90deg,rgba(255,255,255,1) 70%, 
-    rgba(255,255,255,0) 120%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 70%,
+            rgba(255, 255, 255, 0) 120%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-.description{
+
+.description {
     font-size: 30px;
     font-family: var(--font-roboto);
     margin-bottom: 52px;
 }
-.contactBtn{
+
+.contactBtn {
     text-decoration: none;
     background-color: var(--color-primary);
     color: var(--color-text);
@@ -40,9 +44,10 @@
     font-size: 30px;
     font-weight: 600;
     padding: 17px 26px;
-    box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
 }
-.heroImg{
+
+.heroImg {
     width: 100%;
     /* padding-left: 100px; */
     /* height: 300px; */
@@ -52,18 +57,22 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
-@keyframes floating{
-    0%{
-        transform: translate(0,0px);
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
     }
-    50%{
-        transform: translate(0,10px);
+
+    50% {
+        transform: translate(0, 10px);
     }
-    100%{
-        transform: translate(0,-0px);
+
+    100% {
+        transform: translate(0, -0px);
     }
 }
-.topBlur{
+
+.topBlur {
     position: absolute;
     width: 50vw;
     height: 50vw;
@@ -76,7 +85,8 @@
     filter: blur(100px);
     z-index: 0;
 }
-.bottomBlur{
+
+.bottomBlur {
     position: absolute;
     width: 50vw;
     height: 50vw;
@@ -91,11 +101,25 @@
 }
 
 @media screen and (max-width:830px) {
-    .container{
+    .container {
         flex-direction: column-reverse;
     }
-    .content{
+
+    .content {
         align-items: center;
     }
-    
+
+    .title {
+        font-size: 60px;
+    }
+
+    .description {
+        font-size: 25px;
+    }
+
+    .contactBtn {
+        font-size: 25px;
+        font-weight: 600;
+        padding: 12px 21px;
+    }
 }

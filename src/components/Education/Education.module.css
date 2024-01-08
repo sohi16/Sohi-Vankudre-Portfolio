@@ -19,11 +19,13 @@
   text-transform: uppercase;
   margin-left: 10px;
 }
-.head{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 .content {
   display: flex;
   flex-direction: row;
@@ -48,11 +50,9 @@
   border-radius: 20px;
   list-style: none;
   padding: 15px;
-  background-image: linear-gradient(
-    90deg,
-    rgba(165, 215, 232, 0.42) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background-image: linear-gradient(90deg,
+      rgba(165, 215, 232, 0.42) 0%,
+      rgba(255, 255, 255, 0) 100%);
   background-size: 0 100%;
   background-repeat: no-repeat;
   transition: 0.4s;
@@ -71,25 +71,30 @@
   font-size: 22px;
   align-content: space-between;
 }
-.eduIcon{
-    height: 40px;
-    width: 40px;
+
+.eduIcon {
+  height: 40px;
+  width: 40px;
 }
-.aboutItemText
-{
-    padding-left: 30px;
+
+.aboutItemText {
+  padding-left: 30px;
 }
+
 @media screen and (max-width: 830px) {
   .container {
     background-color: transparent;
     padding: 0;
   }
-  .head{
+
+  .head {
     flex-direction: column;
   }
-  .title{
+
+  .title {
     font-size: 30px;
   }
+
   .content {
     flex-direction: column;
   }
@@ -97,10 +102,12 @@
   .aboutImage {
     display: none;
   }
-  .eduIcon{
+
+  .eduIcon {
     height: 30px;
     width: 30px;
-}
+  }
+
   .aboutItems {
     margin-top: 29px;
   }
@@ -109,17 +116,23 @@
     padding-left: 0;
     padding-right: 0;
   }
+
+  .aboutItem:hover {
+    background-size: 100% 100%;
+    padding: 10px;
+  }
+
   .aboutItem h3 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
   }
-  
+
   .aboutItem p {
     font-size: 18px;
     align-content: space-between;
   }
-  .aboutItemText
-{
+
+  .aboutItemText {
     padding-left: 20px;
-}
+  }
 }
